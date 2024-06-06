@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.framenav {
+  width: 100%;
+  height: 80px;
+  background-color: #0009;
+  line-height: 80px;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+}
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.8s all;
+}
+.nav li a {
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-size: 125%;
+  padding: 30px;
+}
+header ul li a:hover {
+  background-color: #0f0f41;
+  box-shadow: 0px 0px 100px #62e9ef;
+}
+header a img {
+  position: absolute;
+  top: 1px;
+  left: 30px;
+}
+main {
+  position: absolute;
+  top: 729px;
+}
+header .banner {
+  border: 10px solid black;
+  border-radius: 15px;
+  width: 27%;
+  position: absolute;
+  top: 230px;
+  left: 140px;
+  box-shadow: 0px 0px px #def6f6;
+}
+.iformation {
+  color: white;
+  width: 835px;
+  height: 366px;
+  background-color: #0009;
+  border-radius: 10px;
+  position: absolute;
+  top: 250px;
+  left: 650px;
+  padding: 10px;
+  text-wrap: balance;
+  text-align: justify;
+  line-height: normal;
+  font-size: 24px;
+}
+.iformation > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #62e9ef;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+marquee {
+  color: white;
+  text-transform: capitalize;
+  position: absolute;
+  margin: 0px;
+  top: 88px;
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.model li a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+  text-shadow: 2px 3px 1px black;
+}
+.model li:hover {
+  color: #62e9ef;
+  text-shadow: 0px 0px 13px black;
+  font-size: 55px;
+}
+.model li {
+  display: inline-block;
+  padding: 40px;
+  margin: 0px;
+}
+main .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+iframe {
+  width: 960px;
+  height: 520px;
+  border: 8px outset black;
+  box-shadow: 4px 7px 3px gray;
+}
+.jframe {
+  display: flex;
+  justify-content: center;
+}
+iframe:hover {
+  box-shadow: inset 0px 10px 50px #0009;
+}
+.model li:focus {
+  color: #62e9ef;
+  text-shadow: 0px 0px 13px black;
+  font-size: 55px;
+}
+footer {
+  padding: 30px;
+  margin-top: 20px;
+  background-color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+}
+.footer-wrapper h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+}
+.business img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 46px;
+}
+
+.product img {
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.buy-now {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #226aaa;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.buy-now:hover {
+  background-color: #696969;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}

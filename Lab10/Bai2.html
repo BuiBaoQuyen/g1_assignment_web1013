@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div class="form-group">
+                <label for="hovaten">Họ Và Tên:</label>
+                <br>
+                <input 
+                type="text"
+                id="hovaten"
+                class="form-control">
+            </div>
+            <div class="form-group">
+               <fieldset>
+                <legend><label for="gioitinh">Giới Tính:</label></legend>
+                <label for="female"><input id="female" type="radio" name="gender" value="male"> Nam</label>
+                <label for="male"><input id="male" type="radio" name="gender" value="female"> Nữ</label>
+               </fieldset>
+            </div>
+            <div class="form-group">
+                <label for="ngaysinh">Ngày Sinh:</label>
+                <br>
+                <input class="form-control" type="date">
+            </div>
+            <div class="form-group">
+                <label for="diem">Điểm</label>
+                <br>
+                <input class="form-control" type="number" min="0" max="10" step="0.25">
+            </div>
+            <div class="form-group">
+                <label for="nghenghiep">Nghề nghiệp:</label>
+                <br>
+                <select class="form-control" name="nghenghiep" id="nghenghiep">
+                    <option value="" hidden></option>
+                    <option value="jjj">Giao Vien</option>
+                    <option value="bbb">Xay dung</option>
+                    <option value="ddd">Sua Xe</option>
+                    <option value="qqq">Kinh Doanh</option>
+                    <option value="hhh">Cong An</option>
+                </select>
+            </div>
+            <div class="form-group"></div>
+                <fieldset>
+                        <legend><label for="sothich">Sở Thích:</label></legend>
+                        <br>
+                        <input type="checkbox">Thể Thao
+                        <input type="checkbox">Du Lịch
+                        <input type="checkbox">Âm Nhạc
+                        <input type="checkbox">Ẩm Thực
+                    </fieldset>
+            </div>
+            <div class="form-group">
+                <label for="ghichu">Ghi Chu</label>
+                <br>
+                <textarea rows="4" cols="50" name="ghichu" id="ghichu" class="form-control"></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

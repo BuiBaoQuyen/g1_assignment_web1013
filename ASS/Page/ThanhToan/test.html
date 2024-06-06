@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Thanh Toán</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="framenav">
+            <div class="search">
+                <input type="text" placeholder="                  Tìm kiếm nhanh">
+                <img src="/ASS/img/search.png" alt="" width="30px" height="30px">
+            </div>
+            <ul class="nav">
+                <li> <a href="/ASS/index.html"> Trang Chủ </a> </li>
+                <li> <a href="/ASS/Page/SanPham/sanphamht.html"> Sản Phẩm</a> </li>
+                <li> <a href="/ASS/Page/ThanhToan/test.html"> Thanh Toán </a> </li>
+                <li> <a href="/ASS/Page/DichVuHauMai/code.html"> Dịch Vụ Hậu Mãi</a></li>
+                <li title="Đăng nhập để có trải nghiệm tốt nhất"> <a href="/ASS/Page/Login/index.html"> Đăng Nhập </a> </li>
+                <a href="index.html"><img class="header-img" src="/ASS/img/FA_logo_tagline_white.png" width="200" height="80" alt="Logo góc trái"></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h2>Thông Tin Đơn Hàng</h2>
+        <div class="checkout-summary">
+            
+                <h3>Xe Đã Chọn</h3>
+                <ul>
+                    <li>VinFast 4:VF8 - 990,000,000 VND</li>
+                    <li>VinFast 3:VF7 - 900,000,000 VND</li>
+                </ul>
+                <p><strong>Tổng Cộng: 1,890,000,000 VND</strong></p>
+            </div>
+            
+            <h2>Thông Tin Khách Hàng</h2>
+            <form id="checkout-form">
+                <div class="form-section">
+                    <label for="name">Tên:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-section">
+                    <label for="address">Địa Chỉ:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-section">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-section">
+                    <label for="phone">Điện Thoại:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <h2>Thông Tin Thanh Toán</h2>
+                <div class="form-section">
+                    <label for="card-number">Số Thẻ:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                </div>
+                <div class="form-section">
+                    <label for="expiry-date">Ngày Hết Hạn:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                </div>
+                <div class="form-section">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+                
+                <button type="submit">Thanh Toán</button>
+            </form>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Công Ty Bán Ô Tô. Mọi quyền được bảo lưu.</p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
+    

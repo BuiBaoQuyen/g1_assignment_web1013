@@ -1,0 +1,28 @@
+.vmenu {
+    padding: 0px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+
+.vmenu a {
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background: url('./img/2021-flashing-bullet-point.gif') no-repeat 10px center;
+    background-size: 15px;
+}
+
+.vmenu a:hover {
+    background: url('./img/row.jpg') no-repeat 10px center;
+    background-size: 15px;
+    border-bottom: 1px dooted white;
+    background-color: orangered;
+    color: #fff;
+    font-weight: bold;
+}
